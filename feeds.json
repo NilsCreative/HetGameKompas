@@ -1,0 +1,23 @@
+{
+  "_uitleg": "RSS-feeds die /api/nieuws uitleest. Een feed die niet werkt wordt stil overgeslagen. Controleer deze adressen voor je live gaat.",
+  "_filter": "Een item telt mee als de titel of samenvatting een van deze woorden bevat.",
+  "woorden": [
+    "gta 6",
+    "gta vi",
+    "grand theft auto"
+  ],
+  "feeds": [
+    {
+      "naam": "XGN",
+      "url": "https://www.xgn.nl/rss"
+    },
+    {
+      "naam": "Gamer.nl",
+      "url": "https://www.gamer.nl/rss"
+    },
+    {
+      "naam": "Rockstar Newswire",
+      "url": "https://www.rockstargames.com/newswire/rss"
+    }
+  ]
+}

@@ -8,6 +8,10 @@
   ],
   "feeds": [
     {
+      "naam": "Gamekings",
+      "url": "https://www.gamekings.tv/feed/"
+    },
+    {
       "naam": "XGN",
       "url": "https://www.xgn.nl/rss"
     },

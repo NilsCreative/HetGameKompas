@@ -45,7 +45,7 @@ export default async function handler(req, res) {
       const c = new AbortController();
       const t = setTimeout(() => c.abort(), 4000);
       try {
-        const r = await fetch(f.url, { signal: c.signal, headers: { 'user-agent': 'hetgamekompas.nl' } });
+        const r = await fetch(f.url, { signal: c.signal, headers: { 'user-agent': 'Mozilla/5.0 (compatible; HetGamekompas/1.0; +https://hetgamekompas.nl)' } });
         if (!r.ok) return [];
         return itemsUitFeed(await r.text(), f.naam);
       } finally {
